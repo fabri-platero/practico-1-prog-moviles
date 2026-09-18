@@ -42,6 +42,11 @@
             "ruta" : "perfil",
             "icon" : "person",
             "texto": "Perfil"
+            },
+            {
+            "ruta" : "welcome",
+            "icon" : "gradient",
+            "texto": "Bienvenida"
             }
     ]
 }

@@ -9,6 +9,7 @@ import 'package:app_component/src/pages/inputs_page.dart';
 import 'package:app_component/src/pages/list_page.dart';
 import 'package:app_component/src/pages/perfil_page.dart';
 import 'package:app_component/src/pages/slider_page.dart';
+import 'package:app_component/src/pages/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -23,7 +24,8 @@ Map<String, WidgetBuilder> getAplicationRoutes (){
     "inputs":(BuildContext context) => const InputsPage(),
     "list":(BuildContext context) => const ListPage(),
     "slider": (BuildContext context) => const SliderPage(),
-    "perfil": (BuildContext context) => const PerfilPage()
+    "perfil": (BuildContext context) => const PerfilPage(),
+    "welcome": (BuildContext context) => const WelcomePage()
 
   };
 }
