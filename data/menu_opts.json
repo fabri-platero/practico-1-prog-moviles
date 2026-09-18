@@ -47,6 +47,11 @@
             "ruta" : "welcome",
             "icon" : "gradient",
             "texto": "Bienvenida"
+            },
+            {
+            "ruta" : "movingShape",
+            "icon" : "open_with",
+            "texto": "Figura Animada"
             }
     ]
 }

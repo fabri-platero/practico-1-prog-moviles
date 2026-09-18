@@ -7,6 +7,7 @@ import 'package:app_component/src/pages/contador_page.dart';
 import 'package:app_component/src/pages/home_page.dart';
 import 'package:app_component/src/pages/inputs_page.dart';
 import 'package:app_component/src/pages/list_page.dart';
+import 'package:app_component/src/pages/moving_shape_page.dart';
 import 'package:app_component/src/pages/perfil_page.dart';
 import 'package:app_component/src/pages/slider_page.dart';
 import 'package:app_component/src/pages/welcome_page.dart';
@@ -25,7 +26,8 @@ Map<String, WidgetBuilder> getAplicationRoutes (){
     "list":(BuildContext context) => const ListPage(),
     "slider": (BuildContext context) => const SliderPage(),
     "perfil": (BuildContext context) => const PerfilPage(),
-    "welcome": (BuildContext context) => const WelcomePage()
+    "welcome": (BuildContext context) => const WelcomePage(),
+    "movingShape": (BuildContext context) => const MovingShapePage()
 
   };
 }

@@ -10,7 +10,8 @@ final Map<String, dynamic> _icons ={
   "tune": Icons.tune,
   "list": Icons.list,
   "person": Icons.person,
-  "gradient": Icons.gradient
+  "gradient": Icons.gradient,
+  "open_with": Icons.open_with
 };
 
 
